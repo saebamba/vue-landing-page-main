@@ -26,7 +26,7 @@ let handleSubmit = () => {
         <section class="grid grid-cols-none lg:grid-cols-2 pb-16 pt-8 items-center">
             <div class="lg:w-5/6 order-2 lg:order-none">
                 <h1 class="text-4xl xl:text-5xl font-bold font-theme-heading text-center lg:text-left"> Augmenting Sales for DMV SMBs With Fine-Tuned Transformative GenAI</h1>
-                <p class="lg:text-2xl mt-10 font-theme-content text-theme-grayish-blue text-center lg:text-left">Harnessing the power of custom-trained Large Language Models (LLMs) to redefine sales for businesses across the DC, Maryland and Virginia region. Our suite of tools are fine-tuned on DMV consumer data, designed to elevate your lead generation and deal-closing capabilities to unprecedented heights.</p>
+                <p class="text-theme-grayish-blue text-left mt-7 font-theme-content text-2xl">Harnessing the power of custom-trained Large Language Models (LLMs) to redefine sales for businesses across the DC, Maryland and Virginia region. Our suite of tools are fine-tuned on DMV consumer data, designed to elevate your lead generation and deal-closing capabilities to unprecedented heights.</p>
                 <div class="flex justify-center lg:justify-start mt-10">
                     <form @submit.prevent="handleSubmit()">
                     <div class="relative flex flex-col items-center lg:flex-row justify-center lg:space-x-3">
