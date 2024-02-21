@@ -34,7 +34,7 @@ let isOpen = ref(1);
                         </div>
                         <div>
                             <h3 class="font-theme-heading text-4xl md:text-3xl font-medium text-center lg:text-left">{{ feature.details.title }}</h3>
-                            <p class="mt-7 font-theme-content text-2xl text-theme-grayish-blue text-center lg:text-left">{{ feature.details.description }}</p>
+                            <p class="mt-7 font-theme-content text-2xl text-theme-grayish-blue text-left lg:text-left">{{ feature.details.description }}</p>
                             
                         </div>
                     </div>
